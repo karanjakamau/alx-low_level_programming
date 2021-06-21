@@ -10,6 +10,7 @@ int main(void)
         putchar(alpha);
         alpha = alpha + 1;
     }
+    putchar('\n')
 
     return (0);
     
