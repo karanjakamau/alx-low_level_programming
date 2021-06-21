@@ -3,15 +3,14 @@
 
 int main(void)
 {
-    char alpha;
-    alpha = 'a';
-    while (alpha <= 'z')
-    {
-        putchar(alpha);
-        alpha = alpha + 1;
-    }
-    putchar('\n');
+char alpha;
 
-    return (0);
-    
+alpha = 'a';
+while (alpha <= 'z')
+{
+putchar(alpha);
+alpha = alpha + 1;
+}
+putchar('\n');
+return (0);
 }
