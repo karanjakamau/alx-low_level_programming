@@ -5,6 +5,7 @@ int main(void)
 {
     char alpha,u_alpha;
     alpha = 'a';
+    u_alpha = 'A'
     while (alpha <= 'z')
     {
         putchar(alpha);
