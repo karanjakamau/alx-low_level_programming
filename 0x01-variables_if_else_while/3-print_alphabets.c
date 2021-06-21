@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - print lowercase
+ * then uppercase.
+ * Return: the function returns 0
+ */
 int main(void)
 {
 char alpha, u_alpha;

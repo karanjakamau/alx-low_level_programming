@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - print alphabet
+ * expect e and p.
+ * Return: the function returns 0
+ */
 int main(void)
 {
 char alpha;

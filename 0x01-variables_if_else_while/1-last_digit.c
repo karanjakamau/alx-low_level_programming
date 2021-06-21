@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - print the last
+ * digit of a random number.
+ * Return: the function returns 0
+ */
 int main(void)
 {
 int n, last_digit;

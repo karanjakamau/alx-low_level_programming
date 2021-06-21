@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - check the statment if
+ * is positive or negative.
+ * Return: the function returns 0
+ */
 int main(void)
 {
 int n;
