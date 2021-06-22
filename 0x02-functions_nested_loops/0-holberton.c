@@ -2,7 +2,6 @@
 
 int main (void)
 {
-char name[] = "Holberton";
-_putchar(name);
+_putchar("Holberton");
 return (0);
 }
