@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio>
 /**
  * print_to_98 - prints natural numbers
  * @n: integer
