@@ -2,7 +2,7 @@
 
 int main (void)
 {
-char * c = "Holberton";
-_putchar(&c);
+char name[] = "Holberton";
+_putchar(name);
 return (0);
 }
