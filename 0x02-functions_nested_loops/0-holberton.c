@@ -2,6 +2,7 @@
 
 int main (void)
 {
-_putchar("Holberton");
+char c = "H";    
+_putchar(c);
 return (0);
 }
