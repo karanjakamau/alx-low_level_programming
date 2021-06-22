@@ -3,6 +3,6 @@
 int main (void)
 {
 char * c = "Holberton";
-_putchar(c);
+_putchar(&c);
 return (0);
 }
