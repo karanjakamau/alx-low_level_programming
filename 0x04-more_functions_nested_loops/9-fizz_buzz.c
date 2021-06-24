@@ -19,15 +19,15 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%s ", BOTH);
+printf("%s ", "FizzBuzz");
 }
 else if (i % 3 == 0)
 {
-printf("%s ", THREE);
+printf("%s ", "Fizz");
 }
 else if (i % 5 == 0)
 {
-printf("%s ", FIVE);
+printf("%s ", "Buzz");
 }
 else
 {
