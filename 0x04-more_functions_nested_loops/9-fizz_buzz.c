@@ -4,11 +4,11 @@
 #define THREE "Fizz "
 #define FIVE "Buzz "
 /**
- * fizz_buzz - print 1 -100
+ * main - print 1 -100
  * replace a multiple of 3 with fizz
  * replace a multiple of 5 with buzz
  * replace a multiple of both 3 & 5 with FizzBuzz
- * Return: void
+ * Return: integer
  */
 
 int main(void)
