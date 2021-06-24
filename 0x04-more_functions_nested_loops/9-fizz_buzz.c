@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
-#define BOTH "FizzBuzz"
-#define THREE "Fizz"
-#define FIVE "Buzz"
+#define BOTH "FizzBuzz "
+#define THREE "Fizz "
+#define FIVE "Buzz "
 /**
  * fizz_buzz - print 1 -100
  * replace a multiple of 3 with fizz
@@ -19,15 +19,15 @@ for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
 {
-printf("%s ", "FizzBuzz");
+printf("%s ", BOTH);
 }
 else if (i % 3 == 0)
 {
-printf("%s ", "Fizz");
+printf("%s ", THREE);
 }
 else if (i % 5 == 0)
 {
-printf("%s ", "Buzz");
+printf("%s ", FIVE);
 }
 else
 {
