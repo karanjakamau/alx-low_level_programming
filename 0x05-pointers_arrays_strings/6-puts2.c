@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <string.h>
 /**
- * puts - Prints characters 
+ * puts2 - Prints characters
  * @str: string pointer
  * Return: void
  */
@@ -13,7 +13,14 @@ int i;
 int len = strlen(str);
 for (i = 0; i < len; i++)
 {
+if (i % 2 == 0)
+{
 _putchar(*(str + i));
 }
-_putchar('\n'); 
+else
+{
+continue;
+}
+}
+_putchar('\n');
 }
